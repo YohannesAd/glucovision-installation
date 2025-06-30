@@ -1,0 +1,101 @@
+/* GlucoVision Landing Page  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #1f2937;
+  line-height: 1.6;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+header {
+  background-color: #3b82f6;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+
+section {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.about, .instructions, .github {
+  background: white;
+  margin-top: 1.5rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #1e3a8a;
+  margin-bottom: 0.75rem;
+}
+
+.platform {
+  margin-top: 2rem;
+}
+
+.platform img {
+  margin-top: 0.75rem;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol {
+  padding-left: 1.25rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; 
+  font-size: 0.875rem;
+  padding: 2rem 1rem;
+  color: #6b7280;
+  margin-top: 2rem;
+  flex-wrap: wrap; 
+}
+
+footer img {
+  width: 160px;
+  height: auto;
+  margin-top: 0; 
+}
